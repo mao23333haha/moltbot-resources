@@ -1,48 +1,46 @@
-```
 {
-  "projects": [
-    {
-      "name": "Cherry Studio",
-      "description": "AI Agent + Coding Agent 桌面应用，支持自主编码、智能自动化和统一访问前沿 LLM，包含 300+ 助手",
-      "github": "https://github.com/CherryHQ/cherry-studio",
-      "tags": ["桌面应用", "TypeScript", "AGPL-3.0", "38.9k"],
-      "website": "https://cherry-ai.com"
-    },
-    {
-      "name": "Moltworker",
-      "description": "在 Cloudflare Workers 上运行 Moltbot，无需服务器，全球部署，零成本启动",
-      "github": "https://github.com/cloudflare/moltworker",
-      "tags": ["Cloudflare", "Workers", "Serverless", "TypeScript", "1.8k"]
-    },
-    {
-      "name": "LangBot",
-      "description": "生产级多平台智能机器人开发平台，支持 Discord/Slack/LINE/Telegram/微信/飞书/钉钉/QQ 等多个平台",
-      "github": "https://github.com/langbot-app/LangBot",
-      "tags": ["Python", "多平台", "Apache-2.0", "15k"],
-      "website": "https://langbot.app"
-    },
-    {
-      "name": "AstrBot",
-      "description": "集成多个 IM 平台和 LLM 的代理式 IM 聊天机器人基础设施，插件化架构",
-      "github": "https://github.com/AstrBotDevs/AstrBot",
-      "tags": ["IM机器人", "插件系统", "多平台"]
-    },
-    {
-      "name": "AionUi",
-      "description": "免费、本地、开源的 24/7 Cowork 和 Clawdbot，为 Gemini CLI、Claude Code、Codex CLI 等提供支持",
-      "github": "https://github.com/iOfficeAI/AionUi",
-[下午 4:10]"tags": ["本地", "开源", "CLI支持"]
-    },
-    {
-      "name": "Lobster",
-      "description": "Clawdbot 原生工作流 shell：类型化、本地优先的"宏引擎"，用于工作流自动化",
-      "github": "https://github.com/openclaw/lobster",
-      "tags": ["工作流", "CLI", "Shell", "自动化"]
-    },
-    {
-      "name": "clawbot",```
-
-"description": "Clawdbot 完整配置指南：从安装到 Claude Code 中转，一站式部署教程",
+  "projects": [
+    {
+      "name": "Cherry Studio",
+      "description": "AI Agent + Coding Agent 桌面应用，支持自主编码、智能自动化和统一访问前沿 LLM，包含 300+ 助手",
+      "github": "https://github.com/CherryHQ/cherry-studio",
+      "tags": ["桌面应用", "TypeScript", "AGPL-3.0", "38.9k"],
+      "website": "https://cherry-ai.com"
+    },
+    {
+      "name": "Moltworker",
+      "description": "在 Cloudflare Workers 上运行 Moltbot，无需服务器，全球部署，零成本启动",
+      "github": "https://github.com/cloudflare/moltworker",
+      "tags": ["Cloudflare", "Workers", "Serverless", "TypeScript", "1.8k"]
+    },
+    {
+      "name": "LangBot",
+      "description": "生产级多平台智能机器人开发平台，支持 Discord/Slack/LINE/Telegram/微信/飞书/钉钉/QQ 等多个平台",
+      "github": "https://github.com/langbot-app/LangBot",
+      "tags": ["Python", "多平台", "Apache-2.0", "15k"],
+      "website": "https://langbot.app"
+    },
+    {
+      "name": "AstrBot",
+      "description": "集成多个 IM 平台和 LLM 的代理式 IM 聊天机器人基础设施，插件化架构",
+      "github": "https://github.com/AstrBotDevs/AstrBot",
+      "tags": ["IM机器人", "插件系统", "多平台"]
+    },
+    {
+      "name": "AionUi",
+      "description": "免费、本地、开源的 24/7 Cowork 和 Clawdbot，为 Gemini CLI、Claude Code、Codex CLI 等提供支持",
+      "github": "https://github.com/iOfficeAI/AionUi",
+      "tags": ["本地", "开源", "CLI支持"]
+    },
+    {
+      "name": "Lobster",
+      "description": "Clawdbot 原生工作流 shell：类型化、本地优先的"宏引擎"，用于工作流自动化",
+      "github": "https://github.com/openclaw/lobster",
+      "tags": ["工作流", "CLI", "Shell", "自动化"]
+    },
+    {
+      "name": "clawbot",
+      "description": "Clawdbot 完整配置指南：从安装到 Claude Code 中转，一站式部署教程",
       "github": "https://github.com/xianyu110/clawbot",
       "tags": ["教程", "配置指南", "中文文档"]
     },
