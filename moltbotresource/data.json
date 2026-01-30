@@ -1,0 +1,126 @@
+{
+  "projects": [
+    {
+      "name": "Cherry Studio",
+      "description": "AI Agent + Coding Agent 桌面应用，支持自主编码、智能自动化和统一访问前沿 LLM，包含 300+ 助手",
+      "github": "https://github.com/CherryHQ/cherry-studio",
+      "tags": ["桌面应用", "TypeScript", "AGPL-3.0", "38.9k"],
+      "website": "https://cherry-ai.com"
+    },
+    {
+      "name": "Moltworker",
+      "description": "在 Cloudflare Workers 上运行 Moltbot，无需服务器，全球部署，零成本启动",
+      "github": "https://github.com/cloudflare/moltworker",
+      "tags": ["Cloudflare", "Workers", "Serverless", "TypeScript", "1.8k"]
+    },
+    {
+      "name": "LangBot",
+      "description": "生产级多平台智能机器人开发平台，支持 Discord/Slack/LINE/Telegram/微信/飞书/钉钉/QQ 等多个平台",
+      "github": "https://github.com/langbot-app/LangBot",
+      "tags": ["Python", "多平台", "Apache-2.0", "15k"],
+      "website": "https://langbot.app"
+    },
+    {
+      "name": "AstrBot",
+      "description": "集成多个 IM 平台和 LLM 的代理式 IM 聊天机器人基础设施，插件化架构",
+      "github": "https://github.com/AstrBotDevs/AstrBot",
+      "tags": ["IM机器人", "插件系统", "多平台"]
+    },
+    {
+      "name": "AionUi",
+      "description": "免费、本地、开源的 24/7 Cowork 和 Clawdbot，为 Gemini CLI、Claude Code、Codex CLI 等提供支持",
+      "github": "https://github.com/iOfficeAI/AionUi",
+      "tags": ["本地", "开源", "CLI支持"]
+    },
+    {
+      "name": "Lobster",
+      "description": "Clawdbot 原生工作流 shell：类型化、本地优先的"宏引擎"，用于工作流自动化",
+      "github": "https://github.com/openclaw/lobster",
+      "tags": ["工作流", "CLI", "Shell", "自动化"]
+    },
+    {
+      "name": "clawbot",
+      "description": "Clawdbot 完整配置指南：从安装到 Claude Code 中转，一站式部署教程",
+      "github": "https://github.com/xianyu110/clawbot",
+      "tags": ["教程", "配置指南", "中文文档"]
+    },
+    {
+      "name": "memU",
+      "description": "为 24/7 主动代理（如 openclaw/moltbot/clawdbot）设计的记忆系统，支持持久化记忆",
+      "github": "https://github.com/NevaMind-AI/memU",
+      "tags": ["记忆系统", "Python", "Agent", "6.2k⭐"],
+      "website": "https://memu.pro"
+    },
+    {
+      "name": "planning-with-files",
+      "description": "实现 Manus 风格持久化 Markdown 规划的 Claude Code 技能，$2B 收购背后的工作流模式",
+      "github": "https://github.com/OthmanAdi/planning-with-files",
+      "tags": ["Claude Code", "技能", "规划", "11.8k⭐"],
+      "website": "https://www.aikux.ai"
+    },
+    {
+      "name": "powermem",
+      "description": "AI 驱动的长期记忆系统 — 准确、敏捷、实惠，支持 clawdbot",
+      "github": "https://github.com/oceanbase/powermem",
+      "tags": ["记忆", "AI", "长期记忆", "OceanBase"]
+    }
+  ],
+  "tools": [
+    {
+      "name": "Cherry Studio",
+      "description": "AI Agent 桌面应用，支持自主编码、智能自动化，集成 300+ AI 助手和编码代理",
+      "website": "https://cherry-ai.com",
+      "github": "https://github.com/CherryHQ/cherry-studio",
+      "tags": ["桌面应用", "开箱即用", "免费", "TypeScript", "38.9k⭐"]
+    },
+    {
+      "name": "Airi",
+      "description": "自托管的 Grok Companion，一个灵魂的容器，支持实时语音聊天、Minecraft、Factorio 玩法。支持 Web/macOS/Windows",
+      "website": "https://airi.moeru.ai/docs/",
+      "github": "https://github.com/moeru-ai/airi",
+      "tags": ["AI伴侣", "VTuber", "实时语音", "Live2D", "17.2k⭐", "MIT"]
+    },
+    {
+      "name": "LangBot",
+      "description": "生产级多平台智能机器人开发平台，集成 ChatGPT/DeepSeek/Dify/n8n/Claude/Gemini 等多种 AI",
+      "website": "https://langbot.app",
+      "github": "https://github.com/langbot-app/LangBot",
+      "tags": ["SaaS", "多平台", "企业级", "Python", "15k⭐", "Apache-2.0"]
+    },
+    {
+      "name": "Crabwalk",
+      "description": "实时伴侣监控器，用于监控 Clawdbot/Moltbot 代理，提供实时状态可视化",
+      "website": "https://crabwalk.app",
+      "github": "https://github.com/luccast/crabwalk",
+      "tags": ["监控", "实时", "TypeScript", "475⭐", "MIT"]
+    },
+    {
+      "name": "memU",
+      "description": "为 24/7 主动代理设计的记忆系统，提供持久化、智能化的记忆管理",
+      "website": "https://memu.pro",
+      "github": "https://github.com/NevaMind-AI/memU",
+      "tags": ["记忆管理", "Agent记忆", "Python", "6.2k⭐"]
+    },
+    {
+      "name": "Clawhub",
+      "description": "Moltbot 技能目录，提供丰富的技能集合，发现和安装各种 Clawdbot 技能",
+      "website": "https://molthub.com",
+      "github": "https://github.com/openclaw/clawhub",
+      "tags": ["技能市场", "目录", "TypeScript", "580⭐", "MIT"]
+    },
+    {
+      "name": "NOF1.ai",
+      "description": "自主 AI 交易系统 (Autonomous AI Trading Agent)，基于 Moltbot 的 AI 自动交易平台",
+      "website": "https://open-nof1.195440.com",
+      "github": "https://github.com/195440/nof1.ai",
+      "tags": ["AI交易", "金融", "TypeScript", "533⭐", "AGPL-3.0"]
+    },
+    {
+      "name": "Awesome Moltbot Skills",
+      "description": "Moltbot 技能的精选集合，官方维护的技能列表",
+      "website": "https://github.com/VoltAgent/awesome-moltbot-skills",
+      "github": "https://github.com/VoltAgent/awesome-moltbot-skills",
+      "tags": ["技能集合", "精选", "Awesome-list", "3.7k⭐", "MIT"]
+    }
+  ]
+}
