@@ -1,10 +1,9 @@
-```
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moltbot 资源集合</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moltbot 资源集合</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
@@ -88,13 +87,15 @@
             <p style="color: #666; margin-bottom: 20px;">以下工具已将 Moltbot 封装为开箱即用的解决方案：</p>
             <div class="card-grid" id="tools-grid"></div>
         </section>
-        <footer>[下午 4:10]<p> 有新的项目或工具？欢迎提交补充</p>
-        </footer>
+        <footer>
+            <p> 有新的项目或工具？欢迎提交补充</p>
+        </footer>
     </div>
-    <script>
-        async function loadData() {
-            try {
-                const response = await fetch('data.json');```[下午 4:10]const data = await response.json();
+    <script>
+        async function loadData() {
+            try {
+                const response = await fetch('data.json');
+                const data = await response.json();
                 renderProjects(data.projects);
                 renderTools(data.tools);
             } catch (error) {
